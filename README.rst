@@ -36,6 +36,15 @@ The latest version of ``isign`` can be installed via `PyPi <https://pypi.python.
 
   $ pip install isign
 
+in case you faced the ``openSSL`` problem  ``AttributeError: module 'lib' has no attribute 'SSL_ST_INIT'``
+try this fix
+
+.. code::
+
+   $ rm -rf ~/.local/lib/python2.7/site-packages/OpenSSL
+
+
+
 Mac OS X
 ~~~~~~~~
 
