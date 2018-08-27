@@ -30,7 +30,7 @@ Installing
 Linux
 ~~~~~
 
-The latest version of ``isign`` can be installed via `PyPi <https://pypi.python.org/pypi/isign/>`__:
+The **original** version of ``isign`` can be installed via `PyPi <https://pypi.python.org/pypi/isign/>`__:
 
 .. code::
 
