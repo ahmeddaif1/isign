@@ -10,6 +10,8 @@ Apple tools already exist to do this. But with ``isign``, now you can do this on
 systems like Linux.
 
 
+
+
 Table of contents
 -----------------
 
@@ -27,34 +29,9 @@ Table of contents
 Installing
 ----------
 
-Linux
-~~~~~
-
-The **original** version of ``isign`` can be installed via `PyPi <https://pypi.python.org/pypi/isign/>`__:
-
 .. code::
 
-  $ pip install isign
-
-in case you faced the ``openSSL`` problem  ``AttributeError: module 'lib' has no attribute 'SSL_ST_INIT'``
-try this fix
-
-.. code::
-
-   $ rm -rf ~/.local/lib/python2.7/site-packages/OpenSSL
-
-
-
-Mac OS X
-~~~~~~~~
-
-On Mac OS X, there are a lot of prerequisites, so the ``pip`` method probably won't work.
-The easiest method is to use ``git`` to clone the `source code repository <https://github.com/saucelabs/isign>`__ and 
-run the install script:
-
-.. code::
-
-  $ git clone https://github.com/saucelabs/isign.git
+  $ git clone https://github.com/ahmeddaif1/isign.git
   $ cd isign
   $ sudo ./INSTALL.sh
 
